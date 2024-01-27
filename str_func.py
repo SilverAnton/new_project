@@ -1,14 +1,9 @@
 def all_caps(value):
-    """эта функция возвращает строку, в верхнем регистре'"""
+    """функция возвращает строку в верхнем регистре"""
     return str(value).upper()
 
 print(all_caps('приветик'))
 
-def title_first(value):
-    """функция возвращает строки с заглавной буквы"""
-    return str(value).title()
-
-print(title_first('develop'))
 
 
 
